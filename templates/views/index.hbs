@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="icon" type="image/x-icon" href="../../img/weather-favicon.png">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>On this page you can find info about Weather</p>
+
+        <form>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" placeholder="Location">
+            <button>Search</button>
+        </form>
+    </div>
+
+    <p id="message-1"></p>
+    <p id="message-2"></p>
+
+
+    <p>Created by {{name}}</p>
+
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+</body>
+</html> 
